@@ -1,3 +1,11 @@
+import { toBeDisabled } from "./toBeDisabled";
+import { toBeVisible } from "./toBeVisible";
+import { toHaveText } from "./toHaveText";
+
 export const plugin = {
-  validators: {},
+  validators: {
+    toBeDisabled,
+    toBeVisible,
+    toHaveText,
+  },
 };
